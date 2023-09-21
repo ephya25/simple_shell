@@ -70,7 +70,7 @@ void _puts(char *str)
 int _putchar(char c)
 {
 	static int i;
-	static char buf[WRITE_BUFF_SIZE];
+	static char buff[WRITE_BUFF_SIZE];
 
 	if (c == BUFF_FLUSH || i >= WRITE_BUFF_SIZE)
 	{
